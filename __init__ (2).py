@@ -1,0 +1,3 @@
+DATABASE_URL=sqlite:///./aingefv.db
+ALLOWED_ORIGINS=http://localhost:5173
+VITE_API_URL=http://localhost:8000
