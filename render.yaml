@@ -5,7 +5,6 @@ services:
     plan: free
     region: frankfurt
     dockerfilePath: ./backend/Dockerfile
-    dockerContext: .
     healthCheckPath: /api/health
     envVars:
       - key: ALLOWED_ORIGINS
